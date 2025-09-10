@@ -10,17 +10,17 @@
 
 
 
-프로그래밍 언어는 고급과 저급언어로 구분된다. 
+프로그래밍 언어는 고급과 저급언어로 구분된다.
 
 고급언어란 컴퓨터와 대화할 수 있도록 만든 언어 중에서 사람이 쉽게 이해할 수 있는 언어를 말한다.
 
 
 
-프로그램 언어로 소스 파일 작성 > 컴파일러 > 기계어 파일 > 실행 
+프로그램 언어로 소스 파일 작성 > 컴파일러 > 기계어 파일 > 실행
 
 
 
-프로그램 언어 
+프로그램 언어
 
 : 자바 , C , C++ , C# , 파이썬
 
@@ -32,7 +32,7 @@
 
 자바 프로그램을 개발하고 실행하기 위해서는 JAVA SE의 구현체인 JDK를 설치해야 한다.
 
-윈도우에서 설치 방법 후 환경 변수를 생성하고 변수를 수정하는 것이 좋다. 
+윈도우에서 설치 방법 후 환경 변수를 생성하고 변수를 수정하는 것이 좋다.
 
 
 
@@ -51,17 +51,187 @@
 
 
 
+package exammmmm;
 
 
 
+public class study1 {
 
 
 
+&nbsp;	public static void main(String\[] args) {
+
+&nbsp;		//
+
+&nbsp;		int apple = 12;
+
+&nbsp;	System.out.println(apple);
+
+&nbsp;		
 
 
 
+&nbsp;		int year = 2025;
+
+&nbsp;		System.out.println(year);
+
+&nbsp;	
+
+&nbsp;		
+
+&nbsp;		int money = -1000;
+
+&nbsp;		System.out.println(money);
+
+&nbsp;	
+
+&nbsp;		
+
+&nbsp;		double length = 9.8;
+
+&nbsp;		System.out.println(length);
+
+&nbsp;		
+
+&nbsp;		double score = 88.5;
+
+&nbsp;		System.out.println(score);
+
+&nbsp;		
+
+&nbsp;		double minusValue = -4.6;
+
+&nbsp;		System.out.println(minusValue);
+
+&nbsp;		
+
+&nbsp;		
+
+&nbsp;		String food =  "떡볶이";
+
+&nbsp;		System.out.println(food);
+
+&nbsp;	
+
+&nbsp;		String city= "서울";
+
+&nbsp;		System.out.println(city);
+
+&nbsp;		
+
+&nbsp;		String hobby= "코딩";
+
+&nbsp;		System.out.println(hobby);
+
+&nbsp;		
+
+&nbsp;		boolean hasCar = false;
+
+&nbsp;		System.out.println(hasCar);
+
+&nbsp;		
+
+&nbsp;		boolean isStudent = true;
+
+&nbsp;		System.out.println(isStudent);
+
+&nbsp;		
+
+&nbsp;		boolean isWeekend = false;
+
+&nbsp;		System.out.println(isWeekend);
+
+&nbsp;		
+
+&nbsp;		int a =10, b = 3;
+
+&nbsp;		System.out.println(a+b);
+
+&nbsp;		System.out.println(a-b);
+
+&nbsp;		System.out.println(a \* b);
+
+&nbsp;		System.out.println(a/b);
+
+&nbsp;		System.out.println(a%b);
+
+&nbsp;		
+
+&nbsp;		int sum = 12+8;
+
+&nbsp;				System.out.println(sum);
+
+&nbsp;				
+
+&nbsp;		int total = 20%4;
+
+&nbsp;				System.out.println(total);
+
+&nbsp;		int mod = 14%5;
+
+&nbsp;				System.out.println(mod);
+
+&nbsp;				
+
+&nbsp;		
+
+&nbsp;		boolean result1 = 15 > 20;
+
+&nbsp;		System.out.println(result1);
+
+&nbsp;	
+
+&nbsp;		boolean result2 = 10==10;
+
+&nbsp;		System.out.println(result2); 
+
+&nbsp;		
+
+&nbsp;		boolean result3 = 7<3;
+
+&nbsp;		System.out.println(result3);
+
+&nbsp;		
+
+&nbsp;		int c=5, d=7;
+
+&nbsp;		System.out.println(c+b);
+
+&nbsp;		System.out.println(c-b);
+
+&nbsp;		System.out.println(c\*b);
+
+&nbsp;		System.out.println(c/b);
+
+&nbsp;		System.out.println(c%b);
 
 
+
+&nbsp;		boolean  logic1 = 10>5\&\& 2>1;
+
+&nbsp;		System.out.println(logic1);
+
+&nbsp;		
+
+&nbsp;		boolean logic2 = 3<7 || 6>2;
+
+&nbsp;		System.out.println(logic2);
+
+&nbsp;		
+
+&nbsp;		boolean logic3 = 8!=8;
+
+&nbsp;				System.out.println(logic3);
+
+&nbsp;				
+
+&nbsp;				
+
+&nbsp;		boolean x=true,y=false;
+
+&nbsp;		System.out.println(!true);
+
+&nbsp;		System.out.println(!false);
 
 
 
