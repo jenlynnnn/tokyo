@@ -3,6 +3,12 @@ import java.util.List;
 import java.util.Scanner;
 public class AnimalMain {
 
+	/**
+	 * Controller와 Service 파일이 없는 것 같아요!
+	 * 다른 파일들은 잘 작성되었네욤 ^*^
+	 * 수정 부탁드려요~.~
+	 */
+
 	public static void main(String[] args) {
 
 	
